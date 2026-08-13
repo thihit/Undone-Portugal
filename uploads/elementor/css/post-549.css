@@ -1,0 +1,154 @@
+.elementor-widget-heading .elementor-heading-title{font-family:var( --e-global-typography-primary-font-family ), Sans-serif;font-weight:var( --e-global-typography-primary-font-weight );color:var( --e-global-color-primary );}.elementor-549 .elementor-element.elementor-element-8d45cce{margin:0px 0px calc(var(--kit-widget-spacing, 0px) + 35px) 0px;text-align:center;}.elementor-549 .elementor-element.elementor-element-8d45cce .elementor-heading-title{font-family:"Montserrat", Sans-serif;font-size:18px;font-weight:600;color:#B5B8BB;}.elementor-549 .elementor-element.elementor-element-bb95e1d{width:100%;max-width:100%;}.elementor-549 .elementor-element.elementor-element-bb95e1d > .elementor-widget-container{margin:0px 0px 0px 0px;}.elementor-549 .elementor-element.elementor-element-bb95e1d.elementor-element{--align-self:center;}#elementor-popup-modal-549 .dialog-widget-content{animation-duration:0.6s;background-color:#111315;border-radius:0px 0px 0px 20px;box-shadow:2px 8px 23px 3px rgba(0,0,0,0.2);}#elementor-popup-modal-549{background-color:#0000008C;justify-content:flex-end;align-items:flex-start;pointer-events:all;}#elementor-popup-modal-549 .dialog-message{width:460px;height:100vh;align-items:flex-start;}#elementor-popup-modal-549 .dialog-close-button{display:flex;}/* Start custom CSS for wpforms, class: .elementor-element-bb95e1d *//* ===========================
+   UNDONE FORM
+=========================== */
+
+/* Labels */
+.undone-form .wpforms-field-label{
+    color:#FFFFFF;
+    font-family:'Montserrat',sans-serif;
+    font-size:15px;
+    font-weight:600;
+    margin-bottom:8px;
+}
+
+/* Campos */
+.undone-form input,
+.undone-form textarea,
+.undone-form select{
+
+    width:100% !important;
+
+    background:#1A1D20 !important;
+
+    color:#FFFFFF !important;
+
+    border:1px solid #2E3438 !important;
+
+    border-radius:10px !important;
+
+    padding:15px 18px !important;
+
+    font-family:'Montserrat',sans-serif;
+
+    font-size:15px;
+
+    transition:all .3s ease;
+
+    box-shadow:none !important;
+}
+
+/* Placeholder */
+
+.undone-form input::placeholder,
+.undone-form textarea::placeholder{
+
+    color:#8D9499 !important;
+
+}
+
+/* Hover */
+
+.undone-form input:hover,
+.undone-form textarea:hover,
+.undone-form select:hover{
+
+    border-color:#00A8B5 !important;
+
+}
+
+/* Focus */
+
+.undone-form input:focus,
+.undone-form textarea:focus,
+.undone-form select:focus{
+
+    border-color:#00A8B5 !important;
+
+    box-shadow:0 0 0 4px rgba(0,168,181,.15) !important;
+
+    outline:none !important;
+
+}
+
+/* Área de mensagem */
+
+.undone-form textarea{
+
+    min-height:170px !important;
+
+    resize:vertical;
+
+}
+
+/* Espaçamento */
+
+.undone-form .wpforms-field{
+
+    margin-bottom:11px !important;
+
+}
+
+/* ===========================
+   BOTÃO UNDONE
+=========================== */
+
+.undone-form button{
+
+    width:100% !important;
+
+    height:56px !important;
+
+    background:transparent !important;
+
+    color:#FFFFFF !important;
+
+    border:1px solid #FFFFFF !important;
+
+    border-radius:10px !important;
+
+    font-family:'Montserrat',sans-serif;
+
+    font-size:15px;
+
+    font-weight:700;
+
+    transition:
+        background-color .3s ease,
+        border-color .3s ease,
+        color .3s ease;
+
+    cursor:pointer;
+
+}
+
+/* Hover */
+
+.undone-form button:hover{
+
+    background:#00A8B5 !important;
+
+    border-color:#00A8B5 !important;
+
+    color:#FFFFFF !important;
+
+}
+
+/* Clique */
+
+.undone-form button:active{
+
+    background:#008896 !important;
+
+    border-color:#008896 !important;
+
+}
+
+/* Focus */
+
+.undone-form button:focus{
+
+    outline:none;
+
+    box-shadow:0 0 0 4px rgba(0,168,181,.18);
+
+}/* End custom CSS */

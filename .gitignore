@@ -1,0 +1,17 @@
+# WordPress
+wp-config.php
+.htaccess
+
+# Cache
+wp-content/cache/
+wp-content/uploads/cache/
+wp-content/upgrade/
+
+# Logs
+*.log
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
